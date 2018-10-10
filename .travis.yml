@@ -4,11 +4,11 @@ sudo: required
 
 go:
 - 1.10.x
-go_import_path: k8s.io/minikube
+go_import_path: k8s.io/kubernetes
 
 install:
 - echo "Don't run anything."
 script:
-- make test
+- echo "Don't run anything."
 after_success:
-- bash <(curl -s https://codecov.io/bash)
+- echo "Don't run anything."
